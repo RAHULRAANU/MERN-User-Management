@@ -19,7 +19,7 @@ const Register = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
                 // http://localhost:3000/api/users/register
-    axios.post("http://localhost:3000/api/users/register", {
+    axios.post("https://mern-user-registration-login.onrender.com/api/users/register", {
       name,
       email,
       phone,
