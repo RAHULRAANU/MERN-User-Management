@@ -13,7 +13,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post('http://mern-user-registration-login.onrender.com/api/users/login', {
+      const response = await axios.post('https://mern-user-registration-login.onrender.com/api/users/login', {
         email,
         password
       });
